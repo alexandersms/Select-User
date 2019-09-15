@@ -7,7 +7,7 @@ class UserList extends Component {
   render() {
     return (
       <div>
-        <ul className="col-md-4">
+        <ul className="col-md-6">
           {this.props.myUsers.map(user => {
             return (
               <li

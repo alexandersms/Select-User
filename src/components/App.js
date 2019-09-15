@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "../style/App.css";
 import UserList from "../containers/users_list";
+import UserDetail from "../containers/user_detail";
 
 class App extends Component {
   render() {
@@ -9,6 +10,9 @@ class App extends Component {
       <div className="container">
         <h1>ReactRedux - Starter : ça marche</h1>
         <UserList />
+        <div className="row">
+          <UserDetail />
+        </div>
       </div>
     );
   }
